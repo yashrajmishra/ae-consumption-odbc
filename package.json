@@ -1,0 +1,21 @@
+{
+  "name": "ae-consumption-report-db",
+  "version": "1.0.0",
+  "description": "a express app to deal with ODBC",
+  "main": "index.js",
+  "pkg":{},
+  "type": "module",
+  "scripts": {
+    "run": "nodemon index.js",
+    "build": "pkg index.js --options expose-gc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "morgan": "^1.10.0",
+    "odbc": "^2.3.5",
+    "pkg": "^4.3.7"
+  }
+}
